@@ -1,0 +1,47 @@
+@font-face {font-family: 'NotoSansKR';
+    src: url("../fonts/NotoSansKR-Regular.otf") format("truetype");}
+   
+   
+    /* 공통 */
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+.space{clear: both;}
+.inner{width: 1400px; margin: 0 auto;}
+body{overflow-x: hidden; font-family: 'NotoSansKR';}
+
+/* 헤더부분 */
+#header{width: 100%; height: 90px; border-bottom: 1px solid #e6e9f0; line-height: 90px;}
+.logo{width: 27px; height: 30px; float: left; padding-top: 13px;}
+#header>.inner{width: 1400px; height: 90px; position: relative;}
+.menu{width: 600px; position:absolute; left: 0; right: 0; margin: 0 auto;}
+.menu>li{width: 100px; float: left; text-align: center;}
+.top_banner{float:right;}
+.top_banner>li{float: left;}
+.one{width: 50px; height: 50px; background-color: #d2040d; border-radius: 50%; margin-top: 22px; text-align: center; line-height: 50px; color: #fff; margin-left: 5px;}
+
+/* 메인이미지 부분 */
+#mainimg{width: 100%; height: 825px; position: relative;}
+.main_bg{width: 100%; height: 450px; background-image: url(../images/back.jpg); position:absolute; top: 110px; background-size: cover;}
+.main_img{width: 1402px; height: 583px; background-image: url(../images/main.png); background-size: cover; position:absolute; left: 0; right: 0; margin: 0 auto; top: 40px;}
+.prev{width: 31px; height: 60px; position:absolute; left: 0; top: 40%;}
+.next{width: 31px; height: 60px; position:absolute; right: 0; top: 40%;}
+.phon{width: 440px; height: 626px; background-image: url(../images/smeg.png); position:absolute; left: 40%; right: 0; margin: 0 auto; background-size: 100%; background-repeat: no-repeat; top: 200px;}
+
+/* 콘텐츠부분 */
+.list{width: 25%; float: left;}
+.list>h2{padding-bottom: 20px;}
+.list>P{padding-bottom: 40px;}
+.list:nth-child(2)>div,.list:nth-child(3)>div,.list:nth-child(4)>div{width: 324px; height: 158px; border: 1px solid #999; padding-top: 100px; text-align:center;}
+.box1{height: 532px;}
+.box2{width: 100%; height: 240px; border: top 1px solid #e6e9f0;border-bottom: 1px solid #e6e9f0; }
+.box_text{float: left; padding-top: 100px;}
+.box_img{float: right; padding-top: 25px;}
+.box_text>span{color: #d2040d;}
+
+/* 푸터부분 */
+#footer{height: 100px;}
+.footer_info{float:left; font-size:11px;padding-top: 30px; color:#666}
+.footer_info>span{font-size: 13px; color: #000; font-weight: bold;}
+.footer_btn{float: right; padding-top: 35px;}
+.footer_btn>li{float: left; width: 140px; height: 38px; border: 1px solid #838383; text-align: center; line-height: 35px; margin-left: 7px;}
+.footer_btn select{width: 80px; height: 30px; border: 1px solid #acacac;}
